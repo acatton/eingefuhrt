@@ -1,6 +1,7 @@
-import pytest
 import ast
 from textwrap import dedent
+
+import pytest
 
 from eingefuhrt.formatters import hacking
 from eingefuhrt.parser import get_imports

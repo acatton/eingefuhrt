@@ -2,7 +2,11 @@
 *.egg-info
 
 .cache
+.coverage
+.tox/
 
 /dist
 /.eggs
 /build
+
+htmlcov/
