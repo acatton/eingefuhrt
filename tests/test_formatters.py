@@ -18,6 +18,7 @@ def test_hacking():
         import functools
         from collections import namedtuple
 
+        from . import entity
         from mymodule.submodule import a as b, foo, bar, baz
         from .curry import wurst""")
 
@@ -28,6 +29,7 @@ def test_hacking():
         import functools
 
         from .curry import wurst
+        from . import entity
         import mymodule.submodule.a as b
         from mymodule.submodule import bar
         from mymodule.submodule import baz
