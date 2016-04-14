@@ -1,6 +1,9 @@
 Eingeführt
 ==========
 
+.. image:: https://travis-ci.org/acatton/eingefuhrt.svg?branch=master
+    :target: https://travis-ci.org/acatton/eingefuhrt
+
 German quality import linter and formatter for Python.
 
 ::
